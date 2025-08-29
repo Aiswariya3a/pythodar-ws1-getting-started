@@ -1,98 +1,89 @@
-#  Git & GitHub Workshop – Repo 1
+# Git & GitHub Workshop – Repo 1
 
-Welcome to **Repo 1** of the Git & GitHub Workshop series.  
-This repository is designed to help students and faculty learn the basics of Git and GitHub through hands-on practice.  
+Welcome to **Repo 1** of the Git & GitHub Workshop series. This repository introduces students and faculty to Git and GitHub basics through hands-on practice.
 
 ---
 
-##  Purpose of This Repository  
+## Purpose
 
-The purpose of **Workshop | Repo 1** is to:  
-- Introduce students and faculty to **Git basics** (clone, add, commit, push, pull).  
-- Practice **collaboration skills** by organizing bio-data files inside structured folders.  
-- Build confidence in working with GitHub before moving on to advanced repositories.  
-- Provide a **starter repo** that acts as a sandbox for experimentation and learning.  
+- Learn **Git basics**: clone, add, commit, push, pull.
+- Practice **collaboration** by organizing bio-data files in structured folders.
+- Build confidence with GitHub for future advanced repositories.
+
+---
 
 ## Folder Structure
 
--  The repository is organized as follows. You can copy-paste this structure directly:
-
+```
 Repo-1/
 ├── Students/
 │   └── SampleStudent.md
 ├── Faculty/
 │   └── SampleFaculty.md
 └── README.md
-
-
-
-
-## General Instructions for Students  
-
-1. Go to the `Students/` folder.  
-2. Create a new Markdown file with your **Roll Number** as the filename. Example: `22EI012.md`.  
-3. Inside your file, add your **bio data** in the following format:  
-
-   ```markdown
-   # Student Bio Data
-
-   **Name:** Your Full Name  
-   **Roll No.:** Your Roll Number  
-   **Department:** Your Department  
-   **Year:** Your Current Year  
-
-   **Interests:**  
-   - Interest 1  
-   - Interest 2  
-   - Interest 3  
-
-   **Hobbies:**  
-   - Hobby 1  
-   - Hobby 2  
-   - Hobby 3
-
-4. Stage and commit your file changes using:
-   
-    1. ```git add```
-   
-    2. ```2it commit -m "Added my biodata file (RollNo)``
-
-    3. ```git push```
-
-5. Verify your file is visible in the repository.
+```
 
 ---
-## General Instructions for Faculty
 
-1. Go to the Faculty/ folder.
+## Instructions for Students
 
-2. Create a new Markdown file with your Employee ID as the filename. Example: 904641.md.
+1. Navigate to the `Students/` folder.
+2. Create a Markdown file named with your **Roll Number** (e.g., `22EI012.md`).
+3. Add your bio-data in this format:
 
-3. Add your bio data in a simple Markdown format (similar to students).
+```markdown
+# Student Bio-Data
 
+**Name:** Your Full Name  
+**Roll No.:** Your Roll Number  
+**Department:** Your Department  
+**Year:** Your Current Year  
 
-## Learning Outcome
+**Interests:**  
+- Interest 1  
+- Interest 2  
+- Interest 3  
 
-By completing Repo 1, you will practice and understand:
+**Hobbies:**  
+- Hobby 1  
+- Hobby 2  
+- Hobby 3
+```
 
-    - git clone – copy repo to your local system
+4. Stage, commit, and push your changes:
+   ```bash
+   git add .
+   git commit -m "Added bio-data for [RollNo]"
+   git push
+   ```
+5. Verify your file appears in the repository.
 
-    - git add – stage changes
+---
 
-    - git status – check repo status
+## Instructions for Faculty
 
-    - git commit – save changes locally
+1. Navigate to the `Faculty/` folder.
+2. Create a Markdown file named with your **Employee ID** (e.g., `904641.md`).
+3. Add your bio-data in a similar Markdown format as students.
+4. Stage, commit, and push your changes (same commands as above).
 
-    - git push – send changes to GitHub
+---
 
-    - git pull – get latest updates from GitHub
+## Learning Outcomes
 
-    - git fetch – check remote updates
+By completing this repo, you will understand:
+- `git clone`: Copy the repo to your local system.
+- `git add`: Stage changes for commit.
+- `git status`: Check the repo's status.
+- `git commit`: Save changes locally.
+- `git push`: Upload changes to GitHub.
+- `git pull`: Download the latest updates from GitHub.
+- `git fetch`: Check for remote updates.
 
-This will set the foundation for collaborative work in later repositories.
+This foundation prepares you for collaborative work in future repositories.
 
-## About PY_THODAR Initiative
+---
 
-PY_THODAR (Python Thodar → தொடர = series / continue / uninterrupted) is a collaborative space for students to learn, build, and showcase their applications.
+## About PY_THODAR
 
-The goal is to build a culture of continuous learning, collaboration, and creativity, where every student creates and improves their own app before the end of the semester.
+**PY_THODAR** (Python Thodar: தொடர = series/continue) is a collaborative space for students to learn, build, and showcase applications. The goal is to foster continuous learning, collaboration, and creativity, encouraging every student to create and improve their own app by semester's end.
