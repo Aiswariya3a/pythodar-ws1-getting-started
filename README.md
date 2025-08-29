@@ -13,19 +13,19 @@ The purpose of **Workshop | Repo 1** is to:
 - Build confidence in working with GitHub before moving on to advanced repositories.  
 - Provide a **starter repo** that acts as a sandbox for experimentation and learning.  
 
----
+## Folder Structure
 
-## 📂 Folder Structure  
+-  The repository is organized as follows. You can copy-paste this structure directly:
+
 Repo-1/
-│
 ├── Students/
 │   └── SampleStudent.md
-│
 ├── Faculty/
 │   └── SampleFaculty.md
-│
 └── README.md
----
+
+
+
 
 ## General Instructions for Students  
 
